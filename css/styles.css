@@ -11033,19 +11033,15 @@ section.resume-section .resume-section-content {
 .resume-section-content .mt-4 {
   margin-bottom: 2rem !important; /* This adds 2 units of space below the button */
 }
-/* --- Final Styling for 'Follow me on' section --- */
-.follow-section span {
-  font-size: 1.2rem;
-  color: #6c757d;
-  font-weight: 500;
-}
-
+/* --- Final Styling for colored social icons --- */
 .social-icon-inline {
-  color: #BD5D38; /* This is your site's orange accent color */
-  font-size: 2rem; /* Controls the size of the icons */
+  display: inline-block;
+  color: #BD5D38;    /* This is your site's orange accent color */
+  font-size: 2.5rem;  /* Controls the size of the icons */
   margin-right: 1.5rem;
+  transition: color 0.3s ease;
 }
 
 .social-icon-inline:hover {
-    color: #8c4224; /* A darker orange for the hover effect */
+  color: #8c4224;    /* A darker orange for the hover effect */
 }
