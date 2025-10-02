@@ -11029,3 +11029,7 @@ section.resume-section .resume-section-content {
     margin: 2rem auto 1rem auto;  /* This centers it with some space above and below */
   }
 }
+/* Add spacing below the Download Resume button */
+.resume-section-content .mt-4 {
+  margin-bottom: 2rem !important; /* This adds 2 units of space below the button */
+}
