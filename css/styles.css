@@ -11024,8 +11024,8 @@ section.resume-section .resume-section-content {
 @media (max-width: 991.98px) {
   #sideNav .img-profile {
     display: block !important;    /* This command forces the image to be visible */
-    width: 5rem;                 /* This gives it a nice size on mobile */
-    height: 5rem;
+    width: 6rem;                 /* This gives it a nice size on mobile */
+    height: 6rem;
     margin: 2rem auto 1rem auto;  /* This centers it with some space above and below */
   }
 }
