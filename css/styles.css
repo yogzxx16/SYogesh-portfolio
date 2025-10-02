@@ -11045,3 +11045,26 @@ section.resume-section .resume-section-content {
 .social-icon-inline:hover {
   color: #8c4224;    /* A darker orange for the hover effect */
 }
+/* --- Footer Styles --- */
+#main-footer {
+  background-color: #BD5D38; /* Your site's orange accent color */
+  color: rgba(255, 255, 255, 0.8); /* White text, slightly transparent */
+}
+
+#main-footer p {
+  font-size: 0.9rem;
+}
+
+.social-icon-footer {
+  display: inline-block;
+  color: #ffffff; /* White icons */
+  font-size: 2rem;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+  opacity: 0.8;
+}
+
+.social-icon-footer:hover {
+    opacity: 1;
+    color: #ffffff;
+}
