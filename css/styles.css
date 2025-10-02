@@ -11036,7 +11036,7 @@ section.resume-section .resume-section-content {
 /* --- Final Styling for colored social icons --- */
 .social-icon-inline {
   display: inline-block;
-  color: #BD5D38;    /* This is your site's orange accent color */
+  color: #BD5D38;    /* Your site's orange accent color */
   font-size: 2.5rem;  /* Controls the size of the icons */
   margin-right: 1.5rem;
   transition: color 0.3s ease;
