@@ -1,0 +1,16 @@
+MY TEXT FOR WEBSITE
+
+HEADLINE: S YOGESHKUMAR
+SUB-HEADLINE: B.Tech IT Student | Aspiring Information Technologist | Passionate About Coding, Technology & Problem Solving
+BIO: Currently a first-year B.Tech IT student at SRM Institute of Science and Technology, actively contributing as a Technical Team Member at PROJECT CLUB SRM|RMP. Developing foundational skills in Information Technology with a particular interest in Large Language Models and Generative AI. 
+
+Certified in Python, Pandas, and Microsoft Excel, with demonstrated knowledge in OpenAI tools and large language modeling. Committed to exploring new technologies, fostering innovation, and pursuing collaborative opportunities to grow in the tech industry.
+EMAIL: syogeshkumar2020@gmail.com
+LINKEDIN_URL: www.linkedin.com/in/yogeshkumar-s-bba213358
+GITHUB_URL:https://github.com/yogzxx16
+CERTIFICATIONS:
+Build Your Generative AI Productivity Skills with Microsoft and LinkedIn :https://www.linkedin.com/learning/certificates/d9838c6b709254e390e313bebc37c623b5d5089d554c182d63562cfdae6f5317?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BmtW50S2eQFmS3t4rgwkXrg%3D%3D
+Kaggle-PYTHON:https://www.kaggle.com/learn/certification/yogzxx16/python
+Kaggle-PANDAS:https://www.kaggle.com/learn/certification/yogzxx16/pandas
+Working Smarter with Microsoft Excel – Microsoft (Coursera):https://www.coursera.org/account/accomplishments/verify/4GM2GIVSWBUW
+Prompt Engineering for ChatGPT-Vanderbilt University:https://www.coursera.org/account/accomplishments/records/SK33TKMXDEVQ
