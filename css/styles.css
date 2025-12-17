@@ -11022,7 +11022,6 @@ section.resume-section .resume-section-content {
 }
 /* --- NEW Mobile View Overhaul (Safe Version) --- */
 @media (max-width: 991.98px) {
-  /* 1. Style the new top navigation bar */
   #sideNav {
     text-align: left;
     padding: 0 1rem;
@@ -11034,42 +11033,36 @@ section.resume-section .resume-section-content {
     font-size: 1.25rem;
     color: #343a40 !important;
   }
-  /* 2. Hide the DESKTOP profile picture on mobile */
   #sideNav .img-profile {
     display: none !important;
   }
-  /* 3. Style the hamburger menu button */
   #sideNav .navbar-toggler {
     border-color: rgba(0,0,0,0.1);
   }
   #sideNav .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
-  /* 4. Style the NEW mobile-only profile picture */
   .d-lg-none .img-profile {
     width: 10rem;
     height: 10rem;
     border: 0.5rem solid #f8f9fa;
   }
-  /* 5. Adjust main content padding for the fixed top nav */
   .container-fluid {
       padding-top: 56px;
   }
-  /* Make the collapsed menu links visible on mobile */
-#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: #343a40; /* A dark grey color for the text */
-}
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #343a40; 
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #BD5D38; 
+  }
+} /* <--- Only ONE bracket here to close the media query */
 
-/* Change link color to orange on hover/tap */
-#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  color: #BD5D38; /* Your site's orange accent color */
-}
-}
-
-/* Add spacing below the Download Resume button */
+/* Everything below here will now work correctly! */
 .resume-section-content .mt-4 {
-  margin-bottom: 2rem !important; /* This adds 2 units of space below the button */
+  margin-bottom: 2rem !important; 
 }
+/* ... rest of your code ... */
 /* --- Final Styling for colored social icons --- */
 .social-icon-inline {
   display: inline-block;
