@@ -80,6 +80,55 @@
     scroll-behavior: smooth;
   }
 }
+/* --- SKILLS MARQUEE STYLES (Paste at the top of styles.css) --- */
+.skills-marquee {
+    overflow: hidden;
+    padding: 20px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+}
+
+.skills-track {
+    display: flex; /* This is the key command that forces horizontal row */
+    width: calc(150px * 16); /* Ensures enough width for all items */
+    animation: scrollSkills 20s linear infinite;
+}
+
+.skill-item {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.skill-item img {
+    height: 3.5rem;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.skill-item i {
+    font-size: 3.5rem;
+    color: #BD5D38;
+}
+
+.skill-item:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+@keyframes scrollSkills {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-150px * 8)); }
+}
+/* ----------------------------------------------------------- */
 
 body {
   margin: 0;
@@ -11094,33 +11143,3 @@ section#certifications {
     padding-bottom: 3rem !important;
 }
 
-/* Individual skill item styling */
-.skill-item {
-    width: 150px; /* This controls the gap between icons */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-
-/* FIX: This controls the size of your images (C, Excel, etc.) */
-.skill-item img {
-    height: 3.5rem; /* Matches the size of your original icons */
-    width: auto;
-    object-fit: contain;
-    filter: grayscale(100%); /* Keeps them black and white to match the theme */
-    opacity: 0.7;
-    transition: opacity 0.3s;
-}
-
-/* FIX: This controls the size of FontAwesome icons (Python, HTML) */
-.skill-item i {
-    font-size: 3.5rem;
-    color: #BD5D38; /* Your theme orange */
-}
-
-/* Hover effect to make icons colorful when you mouse over */
-.skill-item:hover img {
-    filter: grayscale(0%);
-    opacity: 1;
-}
