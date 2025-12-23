@@ -11093,3 +11093,49 @@ section#certifications {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
 }
+
+/* Skills Horizontal Marquee Container */
+.skills-marquee {
+    overflow: hidden;
+    padding: 20px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+}
+
+/* The track that moves */
+.skills-track {
+    display: flex;
+    width: calc(250px * 16); /* Adjust based on icon width * total icons */
+    animation: scrollSkills 30s linear infinite;
+}
+
+/* Individual skill item styling */
+.skill-item {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem; /* Matches your current dev-icon size */
+    flex-shrink: 0;
+}
+
+.skill-item i {
+    color: #BD5D38; /* Your theme orange */
+}
+
+/* Keyframes for the scrolling movement */
+@keyframes scrollSkills {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-150px * 8)); /* Moves by half the total icons */
+    }
+}
+
+/* Pause animation on hover */
+.skills-marquee:hover .skills-track {
+    animation-play-state: paused;
+}
