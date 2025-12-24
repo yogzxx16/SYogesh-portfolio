@@ -11143,3 +11143,9 @@ section#certifications {
     padding-bottom: 3rem !important;
 }
 
+/* Reduce spacing specifically for the Interests section */
+section#interests {
+    padding-top: 2rem !important;    /* Reduced from standard 5rem */
+    padding-bottom: 2rem !important; /* Reduced from standard 5rem */
+    min-height: auto !important;     /* Prevents it from forcing full-screen height */
+}
