@@ -109,19 +109,17 @@
     width: auto;
     max-width: 100%;
     object-fit: contain;
-    filter: grayscale(100%);
-    opacity: 0.7;
-    transition: opacity 0.3s;
+    
+    /* CHANGED: Removed grayscale(100%) and opacity: 0.7 */
+    filter: none; 
+    opacity: 1; 
+    
+    transition: transform 0.3s; /* Kept transition for a subtle zoom effect */
 }
 
-.skill-item i {
-    font-size: 3.5rem;
-    color: #BD5D38;
-}
-
+/* CHANGED: Updated hover to just zoom slightly instead of changing color */
 .skill-item:hover img {
-    filter: grayscale(0%);
-    opacity: 1;
+    transform: scale(1.1); 
 }
 
 @keyframes scrollSkills {
