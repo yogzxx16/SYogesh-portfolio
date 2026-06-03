@@ -11267,10 +11267,14 @@ section#interests {
     color: white;
 }
 
-h1 {
-    text-align: center;
+.hero-title{
+    text-align:center;
 }
 
-h1 span {
-    display: block;
+.hero-title .intro{
+    display:block;
+}
+
+.hero-title .name{
+    display:block;
 }
