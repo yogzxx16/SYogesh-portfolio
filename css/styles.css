@@ -11262,19 +11262,20 @@ section#interests {
     border: none;
 }
 
-.cert-btn:hover{
-    background: #a8542b;
-    color: white;
-}
-
 .hero-title{
     text-align:center;
+    margin-bottom:2rem;
 }
 
 .hero-title .intro{
     display:block;
+    font-size:5rem;
+    line-height:1;
 }
 
 .hero-title .name{
     display:block;
+    font-size:5rem;
+    line-height:1;
+    margin-top:10px;
 }
